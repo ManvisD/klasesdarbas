@@ -1,0 +1,30 @@
+* {
+background-color: red;
+    border: 1px solid black;
+}
+
+header, footer {
+    height: 20%;
+    background-color: white;
+}
+
+div {
+    width: 100%;
+    height: 60%;
+    background-color: blue;
+}
+
+main, aside {
+    border: none;
+    height: 100%;
+}
+
+main {
+    float: right;
+    width: 80%;
+    background-color: aquamarine;
+}
+aside {
+    float: left;
+    width: 20%;
+}
