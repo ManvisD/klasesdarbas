@@ -1,0 +1,31 @@
+div.block {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    float:left;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-size: 35px;
+}
+div.pagr {
+    float:left;
+}
+
+.juoda {
+    background-color: #333333;
+}
+
+.melyna {
+    background-color: aquamarine;
+}
+
+.zalia {
+    background-color: chartreuse;
+}
+
+.ruzava {
+    background-color: burlywood;
+}
