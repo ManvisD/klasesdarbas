@@ -16,3 +16,8 @@ console.log("Jūsų gimimo data yra: " + year + "-" + month + "-" + date);
 console.log("Paskutinių skaitmenų sudarytų skaičių suma yra: " + sum);
 
 let d,e,f,g;
+
+let s = 6;
+let pi = 3.14;
+let r = 3.14*6/2;
+console.log("Apskritimo ilgis:" + ' ' + r);
