@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intervalai</title>
+</head>
+<body>
+<h1>Intervalų sankirta</h1>
+<script>
+
+    let a = -5;
+    let b = 0;
+    let c = -4;
+    let d = 4;
+
+    if (a > b) {
+        window.alert ('Sankirta negalima');
+    }
+    if (d < c) {
+        window.alert ('Sankirta negalima');
+    }
+    if (a > d) {
+        window.alert ('Sankirta negalima');
+    }
+    if (c > b) {
+        window.alert ('Sankirta negalima');
+    }
+
+    let x,y;
+
+    if (b > c && b < d) {
+        if (a > c) {
+            x = a;
+            y = b;
+        } else {
+            x = c;
+            y = b;
+        }
+    }
+    else if (b > d && d > a) {
+        if (a > c) {
+            x = a;
+            y = d;
+        }
+        else {
+            x = c;
+            y = d;
+        }
+
+        }
+
+
+
+
+    let atsakymas = 'X: ' + x + ' ' + 'Y: ' + y;
+    document.write(atsakymas);
+
+</script>
+
+
+</body>
+</html>
