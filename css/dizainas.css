@@ -1,20 +1,37 @@
-* {
-background-color: red;
+header {
+    padding: 10px;
+    background-color: #BADA55;
+}
+aside {
+    padding-left: 15px;
+}
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: #333634;
+    color: white;
 }
 
-header, footer {
-    background-color: white;
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    text-align: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-div {
-    background-color: blue;
+nav > a {
+    font-size: 28px;
+    border-right: 3px solid white;
+    padding-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
 }
 
-main, aside {
-    border: none;
+nav > a:last-of-type {
+    border-right: none;
 }
-
-main {
-    background-color: aquamarine;
-}
-
